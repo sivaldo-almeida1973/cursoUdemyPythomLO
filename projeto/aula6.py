@@ -19,7 +19,7 @@ print(type('1'))#verifica a class de elemento
 #converter string para int
 print(int('1'))# convertendo para tipo inteiro
 print(type(int('1')))#verifica a class de elemento
-print(int('1') + 1)
+print(int('1') + 1)#coerção para int
 
 print('-'*10)
 #converter string para float
@@ -30,6 +30,7 @@ print(type(float('1')))#verifica a class de elemento
 print(bool(''))#string vazia gera False
 print(bool(' '))# string vazia com espaço gera True
 
-print(str(2) + 'b')#converter inteiro para str
+print(str(11) + 'b')#converter inteiro para str
 
 
+print(type(int('1')) , type(int('1')))
