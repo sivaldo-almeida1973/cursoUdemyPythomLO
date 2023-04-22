@@ -1,2 +1,3 @@
-if 1 and 1:
-    print(True and 1 and False)
+#operadores lógicos 
+# and(e) or(ou) not(não)
+#and-> ambas as condições são verdadeiras
