@@ -22,3 +22,27 @@ print(f'{+1000.3475869044:+,.2f}')#mostrar negativo ou positivo tambem
 print(f'o hexadecimal de 1500 é {1500:08x}')
 
 # conversion flags - !r !s !a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
