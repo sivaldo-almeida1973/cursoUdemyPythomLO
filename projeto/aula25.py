@@ -9,7 +9,7 @@ x  e X - Hexadecimal(abcdef0123456789)
 
 nome = 'sivaldo'
 preco = 1000.95897643
-variavel = '%s, o preço é R$%.2f' %(nome,preco)
+variavel = (f'%s, o preço é R$%.2f' %(nome,preco))
 print(variavel)
 
 
