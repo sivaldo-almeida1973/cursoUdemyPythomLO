@@ -7,7 +7,7 @@ Fatiamento de strings
 Fatiamento [i:f:p] [: :]
 Obs.: a função len retorna a qtd de caracteres da str
 """
-# os (:) ontos indicam o fatiamento
+# os (:) pontos indicam o fatiamento
 variavel = 'ola mundo'
 print(variavel[4:])# do a até o final
 print(variavel[4:9]) #esse tem o mesmo resultado
