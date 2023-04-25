@@ -4,14 +4,14 @@ try -> (tentar executar o código)
 except -> ocorreu algum erro ao tentar executar
 
 """
+#vai iprimir string
+numero_str = input('Vou dobrar o número que voce digitar: ')
 
-numero_str = input('vou dobrar o número que voce digitar: ')
-
-try:
-    num_float = float(numero_str)
-    print('float:', numero_str)
+try:#tente executar esse codigo digitando um numero
+    num_float = float(numero_str)#converte em float
+    print('float:', numero_str) #imprimir float
     print(f'o dobro de {numero_str} é {num_float * 2}')
-except:
+except:#se digitar alguma coisa diferente de float cai aqui
     print('Isso não é um numero!')
 
 
