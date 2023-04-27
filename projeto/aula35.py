@@ -15,8 +15,7 @@ loop infinito-> Quando um codigo não tem fim
 contador = 0
 
 while (contador < 10):
-     print(contador)
-     contador = contador + 1
-   
+    contador = contador + 1
+    print(contador)  
 
 print('contador acabou!!')
