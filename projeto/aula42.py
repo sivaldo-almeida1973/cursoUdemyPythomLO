@@ -1,14 +1,15 @@
-frase = 'O Python é uma linguagem de programação ' \
-         'multiparadigma. '\
-         'Python foi criado por Guido Van Rossum.'.lower()#minusculas
+#frase = 'O Python é uma linguagem de programação ' \
+     #    'multiparadigma. '\
+      #   'Python foi criado por Guido Van Rossum.'.lower()#minusculas
 
 #print(frase.count('a')) #quantas vezes a latra (a) aparece na frase
 
-
+frase = 'aaaooo'
 i = 0
 
 qtd_apareceu_mais_vezes = 0
 letra_apareceu_mais_vezes = ''
+
 while i < len(frase):
     letra_atual = frase[i]
 
