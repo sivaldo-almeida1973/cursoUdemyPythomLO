@@ -25,3 +25,8 @@ while True:
         print(letra)
     except StopIteration:
         break
+
+#isso acima é igual á isso abaixo!! Utilizando o for
+print(10*'=')
+for letra in texto:
+    print(letra)
