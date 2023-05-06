@@ -23,6 +23,14 @@ criar , ler, alterar,apagar = lista[i] (CRUD)
 lista = [10,20,30,40,50]
 
 
-lista.append('sivaldo vieira')
+lista.append('sivaldo vieira')#adicionar valor no final da lista
 nome_excluido = lista.pop()
 print(lista, 'Nome', nome_excluido)
+lista.insert(0,'brasil') #inserir valor 'brasil' no indice 0
+print(lista)
+del lista[-1] #deletar valor do indice -1
+print(lista)
+lista.clear()#limpar toda lista
+print(lista)
+
+
