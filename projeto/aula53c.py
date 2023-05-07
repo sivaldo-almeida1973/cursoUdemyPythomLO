@@ -18,6 +18,7 @@ print(10*'==')
 #mesma coisa do de cima ,essa é a melhor maneira
 for indice ,nome in enumerate(lista):
     print(indice, nome)
+    
 
 
 print(10*'==')
