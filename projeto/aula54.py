@@ -15,24 +15,35 @@ while True:
     opcao = input( '[i]inserir [a]apagar [l]listar:' )
 
     if opcao == 'i':
-     
-      valor = input('Valor: ')
-      lista.append(valor)
+         os.system('cls')
+         valor = input('Valor: ')
+         lista.append(valor)
 
 
     elif opcao == 'a':
-      print('a')
+         indice_str = input('escolha ao indice apagar: ')
+         try:
+            indice = int(indice_str)
+            del lista[indice]
+      
+         except ValueError:
+          print('por favor digite um int!')
+
+         except IndexError:
+             print('Indice não existe na lista!')
+         except Exception:
+             print('Erro desconhecido!')
 
     elif opcao == 'l':
-       print('l')
-     
-    if len(lista) == 0:
-       print('Nada para listar!')
-    
-    for i, valor in enumerate(lista):
-       print(i, valor)
+         os.system('cls')
+            
+         if len(lista) == 0:
+            print('Nada para listar!')
+            
+         for i, valor in enumerate(lista):
+            print(i, valor)
 
 
     else:
-       print('Por favor , escolha i, a, l.')
+       print('Por favor , escolha i, a ou l.')
 
