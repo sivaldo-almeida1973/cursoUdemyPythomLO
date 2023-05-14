@@ -30,28 +30,20 @@ o segundo digito do CPF é 0
 '''
 
 
-
+print("Verificando CPF")
 
 cpf = '74682489070'
-nove_digitos = cpf[:9]
-contador_regressivo1 = 10
+
+nove_digitos = cpf[:9]#Fatiamento do 0 ao 9,o nome não inclui
+contador_regressivo_1 = 10
 
 resultado_digito_1 = 0
-for digito in nove_digitos:
-    resultado_digito_1 += int( digito) * contador_regressivo1
-    contador_regressivo1 -= 1
-digito_1 = ((resultado_digito_1 * 10) % 11)
+
+for digito_1 in nove_digitos: #para cada digito em nove_digitos
+  resultado_digito_1 += (int(digito_1 )* contador_regressivo_1)#passar digito para inteiro e multiplicar por contador_regressivo e somar resultados
+  contador_regressivo_1 -= 1
+
+digito_1 = ((resultado_digito_1 * 10) % 11)#resultado x 10 resto da divisão por 11
+
 digito_1 = digito_1 if digito_1 <= 9 else 0
-
-
-
-dez_digitos = nove_digitos + str(digito_1)
-contador_regressivo2 = 11
-
-
-resultado_digito_2 = 0
-for digito in dez_digitos:
-    resultado_digito_2 += int(digito) * contador_regressivo2
-    contador_regressivo2 -= 1
-
-print(resultado_digito_2)
+print(digito_1)
