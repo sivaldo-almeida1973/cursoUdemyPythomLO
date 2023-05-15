@@ -31,7 +31,11 @@ o segundo digito do CPF é 0
 
 print("Verificando CPF")
 
-cpf_enviado_usuario = '74682489070'
+cpf_enviado_usuario = '746.824.890-70' \
+  .replace('.', '')\
+  .replace(' ', '')\
+  .replace('-', '')
+  
 
 nove_digitos = cpf_enviado_usuario[:9]#Fatiamento do 0 ao 9,o nome não inclui
 contador_regressivo_1 = 10
